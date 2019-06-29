@@ -1,0 +1,69 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+slider{
+    width: 100%;
+    height: 100%;
+    display: block;
+   background-size: cover;
+    background-color: aqua;
+    overflow: hidden;
+    position: absolute;
+}
+slide:nth-child(1){
+    left: 0%;
+    animation-delay:1s;
+    background-image: url(i1.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+slide:nth-child(2){
+    left: 0%;
+    animation-delay:3s;
+    background-image: url(i2.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+slide:nth-child(3){
+    left: 0%;
+    animation-delay:5s;
+    background-image: url(i3.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+slide:nth-child(4){
+    left: 0%;
+    animation-delay:7s;
+    background-image: url(i4.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+    slide:nth-child(5){
+        left: 0%;
+        animation-delay:9s;
+        background-image: url(i5.jpg);
+        background-size: cover;
+        background-position: center;     
+   
+
+  }
+  slide:nth-child(6){
+    left: 0%;
+    animation-delay:11s;
+    background-image: url(i6.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+@keyframes slide{
+    0% { left: 100%; width: 100%;}
+    5% { left: 0%;}
+    25% { left: 0%;}
+    30% { left: -100%; width: 100%;}
+    30.0001% { left: -100%; width: 0%;}
+    100% { left: 100%; width: 0%;}
+
+}

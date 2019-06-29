@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam 
+    unde neque sunt praesentium eum asperiores laborum excepturi illo in officia optio, 
+    cupiditate, quis molestias! Dicta accusamus quis aut aperiam officiis?
+    
+</body>
+</html>
+<link rel="stylesheet" href="">
+
+
+.menu{
+    float: right;
+    line-height: 50px;
+    margin: 0 6em;
+
+}
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+.menu ul :hover{
+    background: rgb(187, 34, 34);
+    color: blue;
+
+}
+
+ ul li a{
+    text-decoration: none;
+    color: rgb(187, 34, 34);
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+ul li a:nth-child(2) {
+color: rgb(187, 34, 34);
+border :1px solid  rgb(187, 34, 34);
+padding: 10px 20px;
+}
